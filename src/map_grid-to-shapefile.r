@@ -48,8 +48,8 @@ open_shp_to_spdf = function(shp, key = 'id'){
 	shprd = gBuffer(shprd, byid = T, width = 0)
 	return(shprd)
 }
-#===========================================================
 
+#===========================================================
 # User Inputs:
 
 #- Working Directory
@@ -69,6 +69,7 @@ data_name = 'saltverde'
 # Read In Data:
 shp_grid = open_shp_to_spdf(shp_grid_path)
 shp_area = open_shp_to_spdf(shp_area_path)
+
 #===========================================================
 # Process Data:
 
